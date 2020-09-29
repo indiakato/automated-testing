@@ -40,4 +40,10 @@ describe Deck do
     end
   end
 
+  describe "shuffle" do
+    it "responds to shuffle" do
+      expect(@deck).must_respond_to :shuffle
+    end
+  end
+
 end
